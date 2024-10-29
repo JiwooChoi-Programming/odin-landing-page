@@ -130,7 +130,7 @@ body {
     align-items: center;
     display: flex;
     justify-content: center;
-    margin: 50px;
+    margin: 100px;
 }
 
 .ad-content {
@@ -138,9 +138,10 @@ body {
     background-color: #3882f6;
     border-radius: 8px;
     display: flex;
+    justify-content: center;
     gap: 60px;
-    padding: 30px 50px;
-    width: 600px;
+    padding: 40px;
+    width: 700px;
 }
 
 .ad-title,
@@ -160,4 +161,16 @@ body {
     font-size: 14px;
     font-weight: bold;
     padding: 6px 20px;
+}
+
+.footer {
+    align-items: center;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+}
+
+.footer p {
+    color: white;
 }
