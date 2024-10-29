@@ -102,3 +102,26 @@ body {
     border-radius: 8px;
     height: 150px;
 }
+
+.quote {
+    align-items: center;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+}
+
+.quote-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-content strong {
+    text-align: end;
+}
+
+.quote-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+}
